@@ -22,9 +22,10 @@ Plaintext
 ```
 ```
 Host lab-server
-    HostName 10.0.10.5
+    HostName 10.x.y.z <---- Tailscale IP address
     User ubuntu
     IdentityFile ~/.ssh/id_ed25519
     Port 22
 ```
 Now you can simply type ssh lab-server to connect.
+Apply same steps to laptop 
